@@ -1,6 +1,26 @@
+.jumbotron{
+  background-image: url("../images/formbg.jpg");
+}
 h1{
   text-align: center;
+  color: crimson;
 }
 #pigForm{
   text-align: center;
+  color: white;
+}
+#gameDisplayPlayer1{
+  float: left;
+}
+#gameDisplayPlayer2{
+  float: right;
+}
+.btn{
+  text-align: center;
+  color: green;
+}
+#btn{
+  background-color: black;
+  border-color: black;
+  border-radius: 30px;
 }

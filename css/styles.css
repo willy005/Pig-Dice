@@ -34,4 +34,8 @@ h1{
 }
 placeholder{
   text-align: center;
+  align-self: center;
+}
+.playerName1{
+  color: darkblue;
 }

@@ -21,12 +21,14 @@ var playerRoll = function() {
     pigGame.turnScore = 0;
     alertEndTurn();
     switchPlayer();
-  } else {
+  }
+   else {
     pigGame.turnScore +=roll;
     if (pigGame.playerUp === 1) {
       if (pigGame.turnScore + pigGame.player1Score >= 21) {
         alertWinner(1);
       }
+
     } else if (pigGame.turnScore + pigGame.player2Score >= 21) {
       alertWinner(2);
   }
@@ -38,7 +40,8 @@ function holdThePig() {
   var currentPlayer = pigGame.playerUp;
   if (currentPlayer ===1) {
     pigGame.player1Score += pigGame.turnScore;
-  } else {
+  }
+   else {
     pigGame.player2Score += pigGame.turnScore;
   }
   pigGame.turnScore = 0;
@@ -71,12 +74,12 @@ function resetGame() {
 
 
 function alertEndTurn(){
-  alert("Sorry you rolled a 1. Your score remains the same and your turn is over.");
+  alert("Sorry you rolled a 1.Wait for the next round.");
   $(".playerStatus").text(pigGame.playerUp);
 }
 
 function alertWinner(playerNumber) {
-  alert("Player " + playerNumber + " is the BIG winner!!");
+  alert("Player " + playerNumber + " is the Winner!!");
   resetGame();
   $(".gameStatusDisplay").text(0);
 }

@@ -43,4 +43,6 @@ placeholder{
 .playerName2{
   color: rgb(245, 245, 252);
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
 }
+

@@ -17,6 +17,7 @@
 3.A good device that can connect to the internet without any delay.<br>
 
 In order to play the game you just need to click on the link below and Booooom! here is the game.<br>
+https://willy005.github.io/Pig-Dice/
 
 # Description
 This is !Pig Dice Game! Web application that allows two players to have a fun time!!

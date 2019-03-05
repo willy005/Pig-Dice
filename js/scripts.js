@@ -25,11 +25,11 @@ var playerRoll = function() {
    else {
     pigGame.turnScore +=roll;
     if (pigGame.playerUp === 1) {
-      if (pigGame.turnScore + pigGame.player1Score >= 21) {
+      if (pigGame.turnScore + pigGame.player1Score >= 100) {
         alertWinner(1);
       }
 
-    } else if (pigGame.turnScore + pigGame.player2Score >= 21) {
+    } else if (pigGame.turnScore + pigGame.player2Score >= 100) {
       alertWinner(2);
   }
   }

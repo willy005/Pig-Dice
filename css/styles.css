@@ -1,8 +1,9 @@
 body{
-  background-image: url("../images/dice.jpg");
+  background-image: url("../images/images.jpeg");
 }
 .jumbotron{
   background-image: url("../images/formbg.jpg");
+  border-radius: 40px;
 }
 h1{
   text-align: center;
@@ -18,10 +19,12 @@ h1{
 }
 #gameDisplayPlayer2{
   float: right;
+  color: white;
 }
 .btn{
   text-align: center;
-  color: green;
+  color: white;
+  font-style: oblique;
 }
 #btn{
   background-color: black;

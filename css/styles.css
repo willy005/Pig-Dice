@@ -1,3 +1,6 @@
+body{
+  background-image: url("../images/back.jpg");
+}
 .jumbotron{
   background-image: url("../images/formbg.jpg");
 }

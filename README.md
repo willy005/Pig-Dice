@@ -23,7 +23,8 @@ This is !Pig Dice Game! Web application that allows two players to have a fun ti
 
 # How it works
 Once you open the link in your preffered browser a page pops and you first feed in the players names.
-After feeding the player names you click the button "NewGame"and now you can enjoy your game.
+After feeding the player names you click the button "Start"and now you can enjoy your game.
+The game scores 
 
 
 # License

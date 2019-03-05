@@ -37,5 +37,6 @@ placeholder{
   align-self: center;
 }
 .playerName1{
-  color: darkblue;
+  color: rgb(245, 245, 252);
+  font-family: Arial, Helvetica, sans-serif;
 }

@@ -24,7 +24,7 @@ This is !Pig Dice Game! Web application that allows two players to have a fun ti
 # How it works
 Once you open the link in your preffered browser a page pops and you first feed in the players names.
 After feeding the player names you click the button "Start"and now you can enjoy your game.
-The game scores 
+The game scores go up to 100 and thats when the computer determines th winner.
 
 
 # License
